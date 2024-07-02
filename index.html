@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="styles/global.css" />
 
     <!-- Register icon font -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz@20..48" rel="stylesheet" />
 
     <!-- Register our scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
@@ -32,10 +32,19 @@
     <main class="container">
       <div id="header">
         <h1>
-          <span class="material-symbols-outlined">help</span>
-          PAYDLE
-          <span class="material-symbols-outlined">bar_chart</span>
+          <span id="about-button" class="material-symbols-outlined size-32 clickable">help</span>
+          <span id="game-button" class="clickable">PAYDLE</span>
+          <span id="stats-button" class="material-symbols-outlined size-32 clickable">bar_chart</span>
         </h1>
+        <div id="about">
+          How to play the game
+        </div>
+        <div id="game">
+          The game!
+        </div>
+        <div id="stats">
+          How well you've done
+        </div>
       </div>
     </main>
   </body>
