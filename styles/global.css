@@ -1,4 +1,4 @@
-#header {
+.container {
     text-align: center;
 }
 
@@ -8,6 +8,10 @@
 
 .hidden {
     display: none;
+}
+
+.left-align {
+    text-align: left;
 }
 
 span.size-20 {
