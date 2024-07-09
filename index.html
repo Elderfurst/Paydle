@@ -43,12 +43,26 @@
         <p>The goal of the game is to guess the salary of a given profession.</p>
         <p>After each guess additional information will be revelead to you about the job as well as a hint to how close you are.
           <br>
-          Each of the jobs is a <b>specific</b> job, so it pertains to one single person, you might see two jobs with the same title have vastly different data points.
+          Each of the jobs is a <b>specific</b> job, so it pertains to one single person. You might see two jobs with the same title have vastly different data points!
         </p>
         <p>Guess within 5% of the correct salary to win!</p>
       </div>
       <div id="game">
-        
+        <h4>Job Title: <span id="job-title">Senior Software Engineer</span></h4>
+        <p>Guess: <span id="current-guess">1</span>/6</p>
+
+
+        <input id="guess-1" readonly/>
+        <input id="guess-2" readonly/>
+        <input id="guess-3" readonly/>
+        <input id="guess-4" readonly/>
+        <input id="guess-5" readonly/>
+        <input id="guess-6" readonly/>
+        <div role="group">
+          <input id="current-guess" placeholder="Enter a salary..."/>
+          <input id="guess-button" type="button" value="Submit">
+        </div>
+
       </div>
       <div id="stats" style="display: none;">
         How well you've done
